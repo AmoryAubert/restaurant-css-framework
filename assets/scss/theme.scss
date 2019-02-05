@@ -1,13 +1,13 @@
 $noir: #000;
-$jaune: #ff8;
+$jaune: #FFCC53;
 
 body{
-    background-color: #010;
+    background-color: #5A7CA7;
 }
 header{
     box-shadow: 0px 2px 10px $jaune;
     nav{
-        background-color: #010;
+        background-color:  #214238;
         margin-bottom: 70px;
         box-shadow: 0px 2px 10px $jaune;
         a{
@@ -25,18 +25,20 @@ header{
         }
     }
     #paolo{
-        width: 170%;
+        width: 100%;
         margin-top: 70px;
     }
     .intro{
-        display: flex;
-        flex-direction: row;
+        .photo{
+            background-attachment: fixed;
+            background-size: cover;
+        }
         .info{
             margin-top: 12em;
             margin-left: 30em;
             .tintro{
                 font-family: 'Chewy', cursive;
-                color: $jaune;
+                color: #FFCC53;
                 font-size: 2em;
             }
             .logo{

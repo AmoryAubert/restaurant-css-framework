@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,OADG,CACH,GAAG,CAAA,EACC,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,IAAI,GACd",
+    "sources": [
+        "../scss/style-photos.scss"
+    ],
+    "names": [],
+    "file": "style-photos.css"
+}

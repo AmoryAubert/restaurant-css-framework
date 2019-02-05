@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Accueil</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-teal fixed-top">
+            <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu">
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-brand" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carte.html">Carte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photos.html">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="intro">
+            <div class="photo">
+                <img src="assets/img/image_header.jpg" alt="paolo tmtc" id="paolo"/>
+            </div>
+            <div class="info">
+                <p class="tintro">Bienvenue sur le site de</p>
+                <img src="assets/img/logo-isole.png" alt="logo" class="logo" />
+                <p class="tintro">Les nouveaux restaurants</p>
+                <p class="tintro">proposés par "Entre-Deux"</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="content">
+            <div class="video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/gjc4IYtg59Q?rel=0&amp;autoplay=1" frameborder="3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="yt"></iframe>
+            </div>
+            <p>
+                Les magasins « Entre-Deux » sont heureux de vous annoncer l’ouverture de ses deux premiers restaurants.
+                Retrouvez les produits locaux proposés habituellement dans nos points de ventes, à la table de nos restaurant
+                « Bio’ Foodding ».
+                Deux points de restauration sont actuellement disponibles, à Charleroi, et à Anderlecht.
+                Nous espérons pouvoir vous proposer d’autres restaurants très prochainement dans d’autres régions.
+            </p>
+            <!-- preparation de la partie jumbotron et pannel sur lesquels on appliquera un flex pour les poser côte à côte-->
+            <section class="end">
+                <div class="jumbotron l-side">
+                    <div class="container">
+                        <img src="assets/img/plats-resize.jpg" alt="assiette-rattatouille" class="plate" />
+                        <h1>Recette de la semaine</h1>
+                        <p>
+                            Cette semaine, nous vous proposons la recette qui fera rêver les petits et les grands,
+                            la célèbre ratatouille, façon Disney. Ce plat délicieux est bien plus facile à réaliser
+                            qu’il n’y parait, nous vous invitons à découvrir la recette pas à pas en cliquant sur
+                            le bouton ci-dessous.
+                        </p>
+                        <button class="btn-warning btn-lg"><a class="menu">la ratatouille provençale</a></button>
+                    </div>
+                </div>
+                <div class="r-side">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nouveaux restaurants :</h5>
+                            <p class="card-text">
+                                Un nouveau restaurant « Bio’s Fooding » ouvrira très prochainement ses portes.
+                                Cliquer sur le bouton ci-dessous pour découvrir toutes les infos concernant ce
+                                prochain point de restauration.
+                            </p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Notre liste de fournisseurs s’agrandi :</h5>
+                            <p class="card-text">
+                                « Entre-Deux », et par extension, « Bio’s Fooding », ne travaille qu’avec les
+                                meilleurs producteurs locaux. En février, quatre nouveaux bio-producteurs ont rejoins
+                                notre liste de fournisseurs. Cliquez sur le bouton ci-dessous pour découvrir les produits
+                                étonnant que vous retrouverez bientôt sur nos étals et dans nos menus.
+                            </p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+           </section>
+        </div>
+    </main>
+    <footer>
+        <div class="navbar navbar-dark text-center" id="footbar">
+                <ul class="nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Politique de la vie privée</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mentions légales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-dis" class="nav-link" href="#">© 2019 Bio's Fooding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>

@@ -31,16 +31,7 @@ h1 {
   display: flex;
   flex-direction: row; }
 
-.andrl {
-  border: solid white 2px;
-  border-radius: 5em;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  background-color: rgba(255, 255, 255, 0.75);
-  box-shadow: 0.3em 0.3em 0.3em black;
-  margin-top: 1em; }
-
-.chrl {
+.andrl, .chrl, .end {
   border: solid white 2px;
   border-radius: 5em;
   padding-top: 3em;
@@ -70,18 +61,21 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.end {
-  border: solid white 2px;
-  border-radius: 5em;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  background-color: rgba(255, 255, 255, 0.75);
-  box-shadow: 0.3em 0.3em 0.3em black;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7em;
-  margin: 7em 25% 0; }
+/*.end{
+    border: solid white 2px;
+    border-radius: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0.3em 0.3em 0.3em black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:7em;
+    margin: 7em 25% 0;
+}*/
+.end article {
+  text-align: center; }
 
 .pscheld {
   font-family: 'Abhaya Libre', serif;

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEI,cAAK;EACD,OAAO,EAAE,IAAI;EAGT,8BAAG;IAEC,OAAO,EAAE,MAAM;IACf,WAAW,EAAE,gBAAgB;IAC7B,KAAK,EAAE,KAAK;IACZ,WAAW,EAAE,oDAAoD;IACjE,aAAa,EAAE,eAAe;IAC9B,MAAM,EAAE,MAAM;EAElB,8BAAG;IACC,UAAU,EAAE,uBAAuB",
-"sources": ["carte.scss"],
-"names": [],
-"file": "carte.css"
-}

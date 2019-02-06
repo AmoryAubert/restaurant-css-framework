@@ -16,9 +16,9 @@ h1 { font-size: 1.5em; color: #FFCC53; font-family: 'Chewy', cursive; text-shado
 
 .space { margin-left: 1em; }
 
-.schedule { border: 1px solid black; padding-top: 2em; background-image: url(/assets/img/restau.jpg); background-attachment: fixed; width: 100%; text-align: center; background-repeat: no-repeat; background-size: cover; }
+.schedule { padding-top: 2em; background-image: url(/assets/img/restau.jpg); background-attachment: fixed; width: 100%; text-align: center; background-repeat: no-repeat; background-size: cover; }
 
-.end { border: solid white 2px; border-radius: 5em; padding-top: 3em; padding-bottom: 3em; background-color: rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0.3em 0.3em 0.3em black; box-shadow: 0.3em 0.3em 0.3em black; text-align: center; margin-left: auto; margin-right: auto; }
+.end { border: solid white 2px; border-radius: 5em; padding-top: 3em; padding-bottom: 3em; background-color: rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0.3em 0.3em 0.3em black; box-shadow: 0.3em 0.3em 0.3em black; text-align: center; margin-left: auto; margin-right: auto; margin-top: 7em; }
 
 .pscheld { font-family: 'Abhaya Libre', serif; font-size: 1em; line-height: 0.5em; text-align: center; }
 

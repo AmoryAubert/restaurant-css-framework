@@ -1,69 +1,124 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
     <title>Restaurants</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/restaurants.css">
 </head>
-<body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-teal fixed-top">
-            <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="carte.html">Carte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.html">Photos</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="restaurants.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <img src="assets/img/image_header.jpg" alt="paolo tmtc" id="paolo"/>
-    </header>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-teal fixed-top">
+        <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active navbar-brand" href="restaurants.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="intro">
+        <div class="info">
+            <p class="tintro">Bienvenue sur le site de</p>
+            <img src="assets/img/logo-isole.png" alt="logo" class="logo" />
+            <p class="tintro">Les nouveaux restaurants proposés par "Entre-Deux"</p>
+        </div>
+        <div class="photo">
+            <img src="./assets/testimg/banniere001.jpg" alt="paolo tmtc" id="paolo"/>
+        </div>
+</header>
     <main>
-        <article>   
-        </article>
+        <div class="general container-fluid col-12 col-lg-9 col-xl-9" id="content">
+    <article class=" principal row">    
+        <section class="container chrl col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
+                    <div>
+                        <h1> Bio's Fooding</h1>
+                        <h1>Vous accueille à </h1>
+                        <h1>Charleroi</h1>
+                        <p class="padress">au</p>
+                        <p class="padress">Quai Arthur Rimbaud 10</p>
+                        <p class="padress">6000 Charleroi</p>
+                        <p class="padress"><i class="fas fa-phone-volume"></i>071./010203<span class="space"><i class="fas fa-mobile-alt"></i>0472/010203</span></p>
+                    </div>
+                    <div>   
+                        <iframe class="mapr" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.8779752020987!2d4.438990350626745!3d50.40611167936855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2267503f1dd91%3A0x86dcdd4c2a9c872b!2sQuai+Arthur+Rimbaud+10%2C+6000+Charleroi!5e0!3m2!1sfr!2sbe!4v1549378194975" width="300" height="225" frameborder="1" style="border:0" allowfullscreen></iframe>
+                    </div>
+        </section>
+        <section class="container andrl col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
+                    <div>
+                        <h1> Bio's Fooding</h1>
+                        <h1>Vous accueille à</h1>
+                        <h1> Anderlecht</h1>
+                        <p class="padress">à la</p>
+                        <p class="padress">Rue de Douvre 41</p>
+                        <p class="padress">1070 Anderlecht</p>
+                        <p class="padress"><i class="fas fa-phone-volume"></i>02./040506<span class="space"><i class="fas fa-mobile-alt"></i>0473/040506</span></p>
+                    </div>
+                    <div>   
+                        <iframe class="mapl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.6966932916393!2d4.311478450648621!3d50.836781779430055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c41b7bb0123f%3A0x3aef9649552f751!2sRue+de+Douvres+41%2C+1070+Anderlecht!5e0!3m2!1sfr!2sbe!4v1549391448466" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+        </section>
+        <section class="end row col-xs-12 col-sm col-md">
+                <div><h1>Nos horaires...</h1></div>
+                <article>
+                <p class="pscheld">lun 11h30-14h30 / 18h-22h</p>
+                <p class="pscheld">Mar 11h30-14h30 / 18h-22h</p>
+                <p class="pscheld">Mer 11h30-14h30 / 18h-22h</p>
+                <p class="pscheld">jeu 11h30-14h30 / 18h-22h</p>
+                <p class="pscheld">Ven 11h30-14h30 / 18h-00h</p>
+                <p class="pscheld">Sam 11h30-14h30 / 18h-00h</p>
+                <p class="pscheld">Dim 11h30-14h30 / 18h-22h</p>
+                <button class="reserver btn btn-success"><a href="contact.html" class="linkreserv">Réservez maitenant votre table</a></button>
+                </article>
+            </section>
+    </article>
+</div>
     </main>
     <footer>
-        <div class="navbar navbar-dark text-center" id="footbar">
+            <div class="navbar text-center" id="footbar">
                 <ul class="nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Politique de la vie privée</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conditions générales</a>
+                        <a class="nav-link" href="#">Mentions légales</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">© 2019 Bio's Fooding</a>
+                        <a id="link-dis" class="nav-link" href="#">© 2019 Bio's Fooding</a>
                     </li>
                     <li class="nav-item">
                         <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
                     </li>
                 </ul>
             </div>
-    </footer>
+        </footer>
 </body>
 </html>

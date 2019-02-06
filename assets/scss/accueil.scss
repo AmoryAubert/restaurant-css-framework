@@ -12,7 +12,7 @@ main{
     width: 100%;
     #content{
         margin: 0 auto;
-        padding: 1px 100px 1px;
+        padding: 1px 7% 1px;
         background-color: $jaune01;
         .embedresize{
             padding: 20px 0;
@@ -49,6 +49,7 @@ main{
             }
             .l-side{
                 //width: 45%;
+                margin: 0 auto 4rem;
                 border: solid 1px black;
                 box-shadow: 0.3em 0 0.3em #343a40;
                 .plate{
@@ -66,7 +67,8 @@ main{
             .r-side{
                 //width: 45%;
                 //margin-left: 7em;
-                margin-bottom: 2rem;
+                padding: 0 0 2rem;
+                margin: 0 auto 2rem;
                 .card{
                     .card-body{
                         //margin-bottom: 0.5em;

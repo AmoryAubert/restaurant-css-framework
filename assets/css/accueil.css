@@ -4,7 +4,7 @@ main {
   width: 100%; }
   main #content {
     margin: 0 auto;
-    padding: 1px 100px 1px;
+    padding: 1px 7% 1px;
     background-color: #FFC107; }
     main #content .embedresize {
       padding: 20px 0;
@@ -31,6 +31,7 @@ main {
       background-color: #7B95C8;
       overflow: hidden; }
     main #content .end .l-side {
+      margin: 0 auto 4rem;
       border: solid 1px black;
       box-shadow: 0.3em 0 0.3em #343a40;
       h1-font-family: 'Chewy', cursive;
@@ -41,7 +42,8 @@ main {
         font-family: 'Abhaya Libre', serif;
         color: #000; }
     main #content .end .r-side {
-      margin-bottom: 2rem; }
+      padding: 0 0 2rem;
+      margin: 0 auto 2rem; }
       main #content .end .r-side .card .card-body h5 {
         font-family: 'Chewy', cursive;
         color: #7B95C8; }

@@ -24,16 +24,20 @@ header {
     header .intro .info {
       position: absolute;
       padding: 20px;
+      margin: 1% 0;
       width: 100%;
       text-align: center;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
       header .intro .info .tintro {
         font-family: 'Chewy', cursive;
         color: #fff;
-        font-size: 1.8em;
-        line-height: 40px; }
+        font-size: 2.5vw;
+        padding: 0;
+        margin: 0; }
       header .intro .info .logo {
-        width: 30%; }
+        width: 30%;
+        padding: 0;
+        margin: -1% 0; }
 
 main {
   background: url("../img/testbg02.png") repeat-y;
@@ -41,7 +45,7 @@ main {
   width: 100%; }
   main #content {
     margin: 0 auto;
-    padding: 1px 100px 1px;
+    padding: 1px 5% 1px;
     background-color: #FFC107; }
 
 footer {

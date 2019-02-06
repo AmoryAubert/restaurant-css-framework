@@ -1,16 +1,19 @@
-$jaune: #ff8;
-$bordure-carousel: #010;
-$color-box-pagination: rgb(204, 195, 110);
+$jaune: #FFC107;
+$bleu00: #5973A6;
+$bleu01: #6A84B7;
+$bleu02: #7B95C8;
+$bordure-carousel: #001;
+$color-box-pagination: $bleu02;
 $color-box-pagination-hover: $jaune;
-$color-box-pagination-disabled: rgb(117, 116, 38);
-$page-number-color: $jaune;
+$color-box-pagination-disabled: $bleu00;
+$page-number-color: rgba(255,255,255,.5);
 $page-number-color-hover: rgb(218, 128, 11);
-$page-number-color-disabled: rgb(71, 71, 68);
+$page-number-color-disabled: #fff;
 $pagination-border-color: #0b3a0b;
 $pagination-border-color-disabled: rgba(23, 48, 16, 0.986);
 
-.container{
-    background-color: $jaune;
+.container-fluid{
+    //background-color: $jaune;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

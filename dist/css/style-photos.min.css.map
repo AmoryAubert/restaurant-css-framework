@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,OADG,CACH,GAAG,AAAA,CACC,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,IAAI,CACd",
-    "sources": [
-        "../../assets/scss/style-photos.scss"
-    ],
-    "names": [],
-    "file": "style-photos.min.css"
-}

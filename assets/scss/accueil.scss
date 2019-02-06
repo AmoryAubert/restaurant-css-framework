@@ -1,0 +1,90 @@
+$noir: #000;
+$blanc: #fff;
+$jaune01: #FFC107;
+$jaune02: #FF8;
+$bleu01: #6A84B7;
+$bleu02: #7B95C8;
+
+main{
+    //background: url("../img/testbg01.png") repeat-y;
+    background: url("../img/testbg02.png") repeat-y;
+    background-size: contain;
+    width: 100%;
+    #content{
+        margin: 0 auto;
+        padding: 1px 100px 1px;
+        background-color: $jaune01;
+        .embedresize{
+            padding: 20px 0;
+            max-width: 885px;
+            margin: auto;
+            .video{
+                text-align: center;
+                justify-content: center;
+                position: relative;
+                height: 0;
+                padding-bottom: 56.25%;
+                iframe{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .yt{
+                    box-shadow: 0.3em 0.3em 0.3em  #343a40;
+                }
+            }
+        }
+        p{
+            font-family: 'Abhaya Libre', serif;
+            color: white;
+        }
+        .end{
+            //display: flex;
+            //flex-direction: row;
+            .jumbotron{
+                background-color: $bleu02;
+                overflow: hidden;
+            }
+            .l-side{
+                //width: 45%;
+                border: solid 1px black;
+                box-shadow: 0.3em 0 0.3em #343a40;
+                .plate{
+                    width: 100%;
+                }
+                h1:{
+                    font-family: 'Chewy', cursive;
+                    color: $noir;
+                }
+                p{
+                    font-family: 'Abhaya Libre', serif;
+                    color: $noir;
+                }
+            }
+            .r-side{
+                //width: 45%;
+                //margin-left: 7em;
+                margin-bottom: 2rem;
+                .card{
+                    .card-body{
+                        //margin-bottom: 0.5em;
+                        h5{
+                            font-family: 'Chewy', cursive;
+                            color: $bleu02;
+                        }
+                        .card-title{
+                        }
+                        .card-text{
+                            color: $noir;
+                        }
+                        .card-link{
+                            color: $bleu01;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

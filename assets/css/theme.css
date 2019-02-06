@@ -1,50 +1,30 @@
-body {
-  background-color: #010; }
+body { background-color: #010; }
 
-header {
-  box-shadow: 0px 2px 10px #ff8; }
-  header nav {
-    background-color: #010;
-    margin-bottom: 70px;
-    box-shadow: 0px 2px 10px #ff8; }
-    header nav a .logo70px {
-      width: 70px;
-      height: auto; }
-    header nav li {
-      padding: 0 30px; }
-  header #paolo {
-    width: 60%;
-    margin-top: 70px; }
+header { -webkit-box-shadow: 0px 2px 10px #ff8; box-shadow: 0px 2px 10px #ff8; }
 
-main {
-  background: url("../img/testbg01.png") repeat-y;
-  background-size: contain;
-  width: 100%; }
-  main article {
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 1px;
-    background-color: #ff8;
-    height: 600px; }
+header nav { background-color: #010; margin-bottom: 70px; -webkit-box-shadow: 0px 2px 10px #ff8; box-shadow: 0px 2px 10px #ff8; }
 
-footer {
-  box-shadow: 0px -2px 10px #ff8; }
-  footer div ul li {
-    padding: 0 20px; }
-    footer div ul li .logo40px {
-      width: 40px;
-      height: auto; }
-    footer div ul li a {
-      color: #6c757d; }
-      footer div ul li a:hover {
-        color: #b3b3b3; }
+header nav a .logo70px { width: 70px; height: auto; }
 
-@media screen and (max-width: 600px) {
-  main article {
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 1px;
-    background-color: #ff8;
-    height: 600px; } }
+header nav li { padding: 0 30px; }
 
+header #paolo { width: 60%; margin-top: 70px; }
+
+main { background: url("../img/testbg01.png") repeat-y; background-size: contain; width: 100%; }
+
+main article { width: 80%; margin: 0 auto; padding-bottom: 1px; background-color: #ff8; height: 600px; }
+
+main .container { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+footer { -webkit-box-shadow: 0px -2px 10px #ff8; box-shadow: 0px -2px 10px #ff8; }
+
+footer div ul li { padding: 0 20px; }
+
+footer div ul li .logo40px { width: 40px; height: auto; }
+
+footer div ul li a { color: #6c757d; }
+
+footer div ul li a:hover { color: #b3b3b3; }
+
+@media screen and (max-width: 600px) { main article { width: 100%; margin: 0 auto; padding-bottom: 1px; background-color: #ff8; height: 600px; } }
 /*# sourceMappingURL=theme.css.map */

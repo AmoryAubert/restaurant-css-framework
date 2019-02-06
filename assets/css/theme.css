@@ -53,6 +53,7 @@ footer {
   font-family: 'Chewy', cursive;
   background: #6A84B7; }
   footer div ul li {
+    margin: 0 auto;
     padding: 0 20px; }
     footer div ul li .logo40px {
       width: 40px;

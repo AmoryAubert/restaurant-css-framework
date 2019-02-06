@@ -1,2 +1,14 @@
-article img { height: 500px; width: auto; }
+.container { background-color: #ff8; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -ms-flex-line-pack: center; align-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.container .carousel-box { padding: 20px; }
+
+.container .carousel-box .carousel-inner { border: 3px solid; border-color: #010; -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75); box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75); }
+
+nav .pagination { padding: auto; }
+
+nav .pagination .page-link { color: #ff8; border-color: #0b3a0b; background-color: #ccc36e; }
+
+nav .pagination .page-item :hover { color: #da800b; }
+
+nav .pagination .page-item.disabled .page-link { color: #474744; background-color: #757426; border-color: rgba(23, 48, 16, 0.986); }
 /*# sourceMappingURL=style-photos.css.map */

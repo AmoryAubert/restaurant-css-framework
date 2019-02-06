@@ -3,6 +3,7 @@
 <head>
     <title>Accueil</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
@@ -51,7 +52,7 @@
         </section>
     </header>
     <main>
-        <div id="content">
+        <div id="content" class="container-fluid col-12 col-lg-9 col-xl-9">
             <div class="embedresize">
                 <div class="video">
                         <iframe src="https://www.youtube-nocookie.com/embed/gjc4IYtg59Q?rel=0&amp;autoplay=1" height="475" width="885" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="yt"></iframe>
@@ -65,9 +66,9 @@
                 Nous espérons pouvoir vous proposer d’autres restaurants très prochainement dans d’autres régions.
             </p>
             <!-- preparation de la partie jumbotron et pannel sur lesquels on appliquera un flex pour les poser côte à côte-->
-            <section class="end">
-                <div class="jumbotron l-side">
-                    <div class="container">
+            <section class="end row">
+                <div class="jumbotron l-side col-12 col-lg">
+                    <div class="c">
                         <img src="assets/img/plats-resize.jpg" alt="assiette-rattatouille" class="plate" />
                         <h1>Recette de la semaine</h1>
                         <p>
@@ -79,7 +80,7 @@
                         <button class="btn-warning btn-lg"><a class="menu">la ratatouille provençale</a></button>
                     </div>
                 </div>
-                <div class="r-side">
+                <div class="r-side col-12 col-lg">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Nouveaux restaurants :</h5>

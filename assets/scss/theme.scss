@@ -62,7 +62,6 @@ main{
     background-size: contain;
     width: 100%;
     #content{
-        width: 80%;
         margin: 0 auto;
         padding: 1px 100px 1px;
         background-color: $jaune01;
@@ -93,20 +92,20 @@ main{
             color: white;
         }
         .end{
-            display: flex;
-            flex-direction: row;
+            //display: flex;
+            //flex-direction: row;
             .jumbotron{
                 background-color: $bleu02;
                 overflow: hidden;
             }
             .l-side{
-                width: 45%;
+                //width: 45%;
                 border: solid 1px black;
                 box-shadow: 0.3em 0 0.3em #343a40;
                 .plate{
                     width: 100%;
                 }
-                h1{
+                h1:{
                     font-family: 'Chewy', cursive;
                     color: $noir;
                 }
@@ -116,11 +115,12 @@ main{
                 }
             }
             .r-side{
-                width: 45%;
-                margin-left: 7em;
+                //width: 45%;
+                //margin-left: 7em;
+                margin-bottom: 2rem;
                 .card{
                     .card-body{
-                        margin-bottom: 1.5em;
+                        //margin-bottom: 0.5em;
                         h5{
                             font-family: 'Chewy', cursive;
                             color: $bleu02;
@@ -163,16 +163,6 @@ footer{
                       cursor: default;
                 }
             }
-        }
-    }
-}
-@media screen and (max-width: 600px){
-  main{
-        article{
-            width: 100%;
-            margin: 0 auto;
-            padding-bottom: 1px;
-            background-color: $jaune01;
         }
     }
 }

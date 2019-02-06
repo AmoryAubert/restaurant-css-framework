@@ -1,9 +1,5 @@
-![Boostrap](assets/rdsrc/boostrap_readme.png)
-![BioFood](assets/rdsrc/logo-restau.png)
-![Sass](assets/rdsrc/sass.png)
-
 # Restaurant-Css-Framework
-
+![BioFood](assets/rdsrc/logo-restau.png)
 ## Projet
 Création d'un site web pour un restaurant
 
@@ -44,6 +40,9 @@ Becode, aux quais 10 de Charleroi.
 
 ----------------------
 ![BoostrapReality](https://media.giphy.com/media/1xoKOCXe6lCg3KmbCV/200w_d.gif)
+
+![Sass](assets/rdsrc/sass.png)
+![Boostrap](assets/rdsrc/boostrap_readme.png)
 
 
 

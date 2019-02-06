@@ -3,67 +3,172 @@
 <head>
     <title>Carte</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/carte.css">
+    <script src="/lib/jquery-1.12.2.min.js"></script>
 
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-teal fixed-top">
-            <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-teal fixed-top">
+        <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active navbar-brand" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="intro">
+        <div class="info">
+            <p class="tintro">Bienvenue sur le site de</p>
+            <img src="assets/img/logo-isole.png" alt="logo" class="logo" />
+            <p class="tintro">Les nouveaux restaurants proposés par "Entre-Deux"</p>
+        </div>
+        <div class="photo">
+            <img src="./assets/testimg/banniere001.jpg" alt="paolo tmtc" id="paolo"/>
+        </div>
+    </section>
+</header> 
+<main>
+    <div class="container-fluid col-12 col-lg-9 col-xl-9" id="content">
+        <div class="row test">
+            <div class="col-xs-12 col-sm-6 col-md-6 anderlecht">
+                <h2 class="text-center ht">Carte Anderlecht</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><h2>Entrées</h2></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Mozza'cajou "vegan"
+                      <span class="badge badge-primary badge-pill">12,00€</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="carte.html">Carte</a>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Mezze
+                      <span class="badge badge-primary badge-pill">13,00€</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.html">Photos</a>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Velouté
+                      <span class="badge badge-primary badge-pill">7€</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html">Restaurant</a>
+                    <li class="list-group-item"><h2>Plats</h2></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Lasagne / vegan
+                      <span class="badge badge-primary badge-pill">18,00€</span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Couscous' soy & quinoa
+                      <span class="badge badge-primary badge-pill">18,00€</span>
                     </li>
-                </ul>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Grand mezze
+                      <span class="badge badge-primary badge-pill">20,00€</span>
+                    </li>
+                    <li class="list-group-item"><h2>Desserts</h2></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Moelleux au chocolat noir & fleur de sel
+                      <span class="badge badge-primary badge-pill">8,00€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Douceur végétale du jour
+                      <span class="badge badge-primary badge-pill">8,00€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Crumble aux fruits de saison
+                      <span class="badge badge-primary badge-pill">8,00€</span>
+                    </li>                    
+                  </ul>
             </div>
-        </nav>
-        <img src="assets/img/image_header.jpg" alt="paolo tmtc" id="paolo"/>
-    </header>
-    <main>
-        <article>   
-        </article>
-    </main>
-    <footer>
-        <div class="navbar navbar-dark text-center" id="footbar">
-                <ul class="nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Politique de la vie privée</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conditions générales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">© 2019 Bio's Fooding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
-                    </li>
-                </ul>
+                    
+            <div class="col-xs-12 col-sm-6 col-md-6 anderlecht">
+                <h2 class="text-center ht">Carte Charleroi</h2>
+                <ul class="list-group">
+                        <li class="list-group-item"><h2>Entrées</h2></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Caviar d’aubergine
+                          <span class="badge badge-primary badge-pill">10,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Carpaccio de bœuf aux copeaux de Parmesan
+                          <span class="badge badge-primary badge-pill">15,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Croquettes de crevettes grises
+                          <span class="badge badge-primary badge-pill">15,00€</span>
+                        </li>
+                        <li class="list-group-item"><h2>Plats</h2></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Carbonnades à la flamande avec frites
+                          <span class="badge badge-primary badge-pill">17,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Waterzooi de volaille à la gantoise avec des pommes de terre nature
+                          <span class="badge badge-primary badge-pill">17,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Chicons au gratin avec purée
+                          <span class="badge badge-primary badge-pill">16,00€</span>
+                        </li>
+                        <li class="list-group-item"><h2>Desserts</h2></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Boules de glace et sorbet
+                                (vanille/chocolat/fruit de la passion/ citron/ spéculos)
+                          <span class="badge badge-primary badge-pill">8,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Gaufre bruxelloise
+                          <span class="badge badge-primary badge-pill">8,00€</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Tarte fine aux pommes
+                          <span class="badge badge-primary badge-pill">8,00€</span>
+                        </li>                    
+                      </ul>
             </div>
-    </footer>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="navbar text-center" id="footbar">
+        <ul class="nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Politique de la vie privée</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mentions légales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a id="link-dis" class="nav-link" href="#">© 2019 Bio's Fooding</a>
+            </li>
+            <li class="nav-item">
+                <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
+            </li>
+        </ul>
+    </div>
+</footer> 
 </body>
 </html>

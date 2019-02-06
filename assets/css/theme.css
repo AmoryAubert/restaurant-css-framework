@@ -51,7 +51,9 @@ main {
 footer {
   box-shadow: 0px -2px 10px #FFC107;
   font-family: 'Chewy', cursive;
-  background: #6A84B7; }
+  background: #6A84B7;
+  position: static;
+  z-index: 3; }
   footer div ul li {
     margin: 0 auto;
     padding: 0 20px; }

@@ -1,0 +1,31 @@
+/*test*/
+.form-group{
+    font-family: 'Chewy', cursive;
+}
+
+.form-control{
+    border: 1px solid black;
+}
+
+.design{
+    padding: 2em 1em 2em 1em;
+    margin: 1em auto;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0.2em 0.2em 0.2em black;
+}
+
+.bckg{
+    background-image: url("../img/image_header.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //padding-top: 3em;
+    //padding-bottom: 3em;
+}
+button{
+    margin: 0 auto;
+}
+main{
+    margin: 2px auto;
+}

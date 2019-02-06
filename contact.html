@@ -3,67 +3,127 @@
 <head>
     <title>Contact</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-teal fixed-top">
-            <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="carte.html">Carte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.html">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <img src="assets/img/image_header.jpg" alt="paolo tmtc" id="paolo"/>
-    </header>
-    <main>
-        <article>   
-        </article>
-    </main>
-    <footer>
-        <div class="navbar navbar-dark text-center" id="footbar">
-                <ul class="nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Politique de la vie privée</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conditions générales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">© 2019 Bio's Fooding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
-                    </li>
-                </ul>
-            </div>
-    </footer>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-teal fixed-top">
+        <a href="index.html"><img src="assets/img/logo-isole.png" class="logo70px" /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Ouvre le menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active navbar-brand" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="intro">
+        <div class="info">
+            <p class="tintro">Bienvenue sur le site de</p>
+            <img src="assets/img/logo-isole.png" alt="logo" class="logo" />
+            <p class="tintro">Les nouveaux restaurants proposés par "Entre-Deux"</p>
+        </div>
+        <div class="photo">
+            <img src="./assets/testimg/banniere001.jpg" alt="paolo tmtc" id="paolo"/>
+        </div>
+    </section>
+</header>    
+<main>
+    <section class="container-fluid bckg col-12 col-lg-9 col-xl-9" id="content">
+        <div class="container col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <form class="design">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="name" class="form-control" id="forms" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Email</label>
+                    <input type="prenom" class="form-control" id="forms" placeholder="Prénom">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Email</label>
+                    <input type="email" class="form-control" id="forms" placeholder="entrez@votremail.com">
+                </div>
+                <fieldset class="form-group">
+                <div>
+                    <legend class="col-form-label col-sm-2 pt-0">Région:</legend>
+                    <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="region" value="option1" checked>
+                        <label class="form-check-label" for="region">Charleroi</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="region" value="option2">
+                        <label class="form-check-label" for="region">Anderlecht</label>
+                    </div>
+                    </div>
+                </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Sujet:</label>
+                    <select class="form-control" id="forms">
+                        <option>Réservations</option>
+                        <option>Renseignements</option>
+                        <option>Info fournisseurs</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Posez votre question</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Envoyer votre message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="navbar text-center" id="footbar">
+        <ul class="nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Politique de la vie privée</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mentions légales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a id="link-dis" class="nav-link" href="#">© 2019 Bio's Fooding</a>
+            </li>
+            <li class="nav-item">
+                <a class="" href="index.html"><img src="assets/img/logo-isole.png" class="logo40px"/></a>
+            </li>
+        </ul>
+    </div>
+</footer>    
 </body>
 </html>

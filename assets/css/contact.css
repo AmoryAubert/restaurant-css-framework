@@ -1,0 +1,9 @@
+/*test*/
+.form-group { font-family: 'Chewy', cursive; }
+
+.form-control { border: 1px solid black; }
+
+.design { padding: 2em 1em 2em 1em; border-radius: 25px; background-color: rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0.3em 0.3em 0.3em black; box-shadow: 0.3em 0.3em 0.3em black; }
+
+.bckg { background-image: url(/assets/img/image_header.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; padding-top: 3em; padding-bottom: 3em; }
+/*# sourceMappingURL=contact.css.map */

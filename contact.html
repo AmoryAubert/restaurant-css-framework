@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 
 </head>
 <body>
@@ -41,9 +44,57 @@
         <img src="assets/img/image_header.jpg" alt="paolo tmtc" id="paolo"/>
     </header>
     <main>
-        <article>   
-        </article>
-    </main>
+    <section class="container-fluid bckg">
+        <div class="container col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <form class="design">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="name" class="form-control" id="forms" placeholder="Nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Email</label>
+                        <input type="prenom" class="form-control" id="forms" placeholder="Prénom">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" class="form-control" id="forms" placeholder="entrez@votremail.com">
+                    </div>
+                    <fieldset class="form-group">
+                    <div>
+                        <legend class="col-form-label col-sm-2 pt-0">Région:</legend>
+                        <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="region" value="option1" checked>
+                            <label class="form-check-label" for="region">Charleroi</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="region" value="option2">
+                            <label class="form-check-label" for="region">Anderlecht</label>
+                        </div>
+                        </div>
+                    </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Sujet:</label>
+                        <select class="form-control" id="forms">
+                            <option>Réservations</option>
+                            <option>Renseignements</option>
+                            <option>Info fournisseurs</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Posez votre question</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Envoyer votre message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        </main>
     <footer>
         <div class="navbar navbar-dark text-center" id="footbar">
                 <ul class="nav mx-auto">

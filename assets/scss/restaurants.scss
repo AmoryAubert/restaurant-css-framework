@@ -102,29 +102,29 @@ p+p+p+p.padress{
 }
 
 .reserver{
-    font-size: 1.5em;
-    font-family: 'Chewy', cursive;
-    text-shadow: 0.1em 0.1em black;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0.3em 0.3em 0.3em black;
+    font-size: 1.25em !important;
+    font-family: 'Chewy', cursive !important;
+    text-shadow: 0.1em 0.1em black !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    box-shadow: 0.3em 0.3em 0.3em black !important;
 }
 
 .linkreserv{
-    color: #dda;
-    text-align: center;
-    text-decoration: none;
-    transition: 2s;
+    color: #dda !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: 2s !important;
     &:hover{
-        color: #FFC107;
-        text-decoration: none;
+        color: #FFC107 !important;
+        text-decoration: none !important;
     }
 }
 .btn-success{
-    background-color: #7B95C8;
-    border-color: #000;
+    background-color: #7B95C8 !important; 
+    border-color: #000 !important;
     &:hover{
-        background-color: #5973A6;
-        border-color: #000;
+        background-color: #5973A6 !important;
+        border-color: #000 !important;
     }
 }

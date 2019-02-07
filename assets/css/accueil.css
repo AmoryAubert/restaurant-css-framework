@@ -42,13 +42,21 @@ main {
         font-family: 'Abhaya Libre', serif;
         color: #000; }
     main #content .end .r-side {
-      padding: 0 0 2rem;
-      margin: 0 auto 2rem; }
+      padding: 0.5%;
+      margin: 0 auto 4rem;
+      border: solid 1px black;
+      box-shadow: 0.3em 0 0.3em #343a40;
+      border-radius: 5px;
+      background-color: #fff;
+      overflow: hidden; }
       main #content .end .r-side .card .card-body h5 {
         font-family: 'Chewy', cursive;
         color: #7B95C8; }
       main #content .end .r-side .card .card-body .card-text {
         color: #000; }
+        main #content .end .r-side .card .card-body .card-text hr {
+          margin: 0;
+          padding: 0; }
       main #content .end .r-side .card .card-body .card-link {
         color: #6A84B7; }
 

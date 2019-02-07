@@ -67,8 +67,13 @@ main{
             .r-side{
                 //width: 45%;
                 //margin-left: 7em;
-                padding: 0 0 2rem;
-                margin: 0 auto 2rem;
+                padding: 0.5%;
+                margin: 0 auto 4rem;
+                border: solid 1px black;
+                box-shadow: 0.3em 0 0.3em #343a40;
+                border-radius: 5px;
+                background-color: #fff;
+                overflow: hidden;
                 .card{
                     .card-body{
                         //margin-bottom: 0.5em;
@@ -80,6 +85,10 @@ main{
                         }
                         .card-text{
                             color: $noir;
+                            hr{
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                         .card-link{
                             color: $bleu01;
